@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.barra{
+    background-color: $color-white;
+    .logoo{
+        height: 60px;
+        border-radius: 30px;
+    }
+    .search{
+        color: $color-white;
+    }
+}
+
+.colorfooter{
+    background-color: $color-verde;
+    .letrafooter{
+        color: $color-negro;
+    }
+    .frase{
+        font-size: 22px;
+    }
+}
+
+.colorf{
+    background: linear-gradient(to top, $color-white, $color-verde)
+}
